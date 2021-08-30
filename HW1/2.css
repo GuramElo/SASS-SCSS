@@ -1,0 +1,160 @@
+body {
+  margin: 0px;
+  position: relative;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url("assets/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: Lato-Black;
+  src: url("assets/Lato-Black.ttf");
+}
+@font-face {
+  font-family: Lato-Light;
+  src: url("assets/Lato-Light.ttf");
+}
+@font-face {
+  font-family: Awesome;
+  src: url("assets/FontAwesome.otf");
+}
+body > span {
+  font-family: Lato-Light;
+  font-size: 30px;
+  line-height: 26px;
+  position: absolute;
+  top: 112px;
+  left: 525px;
+}
+
+body > section {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 28px;
+  row-gap: 28px;
+  width: 1180px;
+  top: 192px;
+  left: 526px;
+}
+
+section > .temp, section > div {
+  width: 570px;
+  height: 150px;
+  border: 1px #E2E6E7 solid;
+  border-radius: 5px;
+  position: relative;
+}
+
+.temp2 > div {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 7px solid #F55C43;
+  background-color: #FD7761;
+  position: absolute;
+  left: 50px;
+  top: 41px;
+}
+
+.temp > div, section > div > div {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 7px solid #F9B718;
+  background-color: #FFC12D;
+  position: absolute;
+  left: 50px;
+  top: 41px;
+  font-family: Awesome;
+  position: relative;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.temp > div > span, section > div > div > span {
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.temp1 > div {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 7px solid #7BC200;
+  background-color: #97E411;
+  position: absolute;
+  left: 50px;
+  top: 41px;
+}
+
+.temp3 > div {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 7px solid #47B4F6;
+  background-color: #6FD9FC;
+  position: absolute;
+  left: 50px;
+  top: 41px;
+}
+
+.last > div {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 7px solid #8781BD;
+  background-color: #A39CDC;
+  position: absolute;
+  left: 50px;
+  top: 41px;
+}
+
+.temp > span, section > div > span {
+  font-family: Lato-Black;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  color: #2C3E50;
+  position: absolute;
+  top: 35px;
+  left: 142.2px;
+}
+
+.temp > span > span, section > div > span > span {
+  font-family: Lato;
+  line-height: 24px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  font-size: 14px;
+  color: #A1B1BC;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.temp > section, section > div > section {
+  position: absolute;
+  width: 9px;
+  height: 19px;
+  font-family: Awesome;
+  font-weight: lighter;
+  color: #CFD2D3;
+  font-size: 14px;
+  line-height: 24px;
+  right: 21px;
+  top: 14px;
+}
+
+section > .last {
+  width: 1170px;
+}
+
+/*# sourceMappingURL=2.css.map */

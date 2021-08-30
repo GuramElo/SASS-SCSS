@@ -1,0 +1,123 @@
+body {margin:0px;
+position:relative;
+}
+body, html {
+    width:100%;
+    height:100%;
+}
+
+@font-face {
+    font-family:Lato;
+    src: url("assets/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: Lato-Black;
+    src: url("assets/Lato-Black.ttf");
+}
+@font-face {
+    font-family: Lato-Light;
+    src: url("assets/Lato-Light.ttf");
+}
+@font-face {
+    font-family: Awesome;
+    src: url("assets/FontAwesome.otf");
+}
+body > span{
+    font-family: Lato-Light;
+    font-size:30px;
+    line-height: 26px;
+    position: absolute;
+    top:112px;
+    left:525px;
+}
+body > section {
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap:28px;
+    row-gap:28px;
+    width:1180px;
+    top:192px;
+    left:526px;
+}
+section > .temp{
+    width:570px;
+    height:150px;
+    border:1px #E2E6E7 solid;
+    border-radius: 5px;
+    position: relative;
+}
+@mixin circle($bg-color,$bd-color){
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    border:7px solid $bd-color;
+    background-color: $bg-color;
+    position:absolute;
+    left:50px;
+    top:41px;
+}
+.temp2 > div {
+    @include circle(#FD7761,#F55C43);
+}
+.temp > div{
+    @include circle(#FFC12D,#F9B718);
+    font-family: Awesome;
+    position:relative;
+    font-size: 24px;
+    line-height: 26px;
+}
+.temp > div > span {
+    position: absolute;
+    top:50%;
+    left:48%;
+    transform: translate(-50%,-50%);
+}
+.temp1 > div{
+    @include circle(#97E411,#7BC200);
+}
+.temp3 > div{
+    @include circle(#6FD9FC,#47B4F6);
+}
+.last > div{
+    @include circle(#A39CDC,#8781BD);
+}
+section > div {
+    @extend .temp;
+    
+}
+.temp > span {
+    font-family:Lato-Black;
+    font-size: 14px;
+    line-height:26px;
+    letter-spacing: 0.1em;
+    color:#2C3E50;
+    position: absolute;
+    top:35px;
+    left:142.2px;
+}
+.temp > span > span{
+    font-family: Lato;
+    line-height: 24px;
+    word-spacing: normal;
+    letter-spacing: normal;
+    font-size: 14px;
+    color:#A1B1BC;
+    display: inline-block;
+    margin-top: 5px;
+}
+.temp > section {
+    position:absolute;
+    width:9px;
+    height:19px;
+    font-family: Awesome;
+    font-weight: lighter;
+    color:#CFD2D3;
+    font-size: 14px;
+    line-height: 24px;
+    right:21px;
+    top:14px;
+}
+section > .last {
+    width:1170px;
+}
