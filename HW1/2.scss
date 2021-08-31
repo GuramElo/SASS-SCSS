@@ -57,6 +57,13 @@ section > .temp{
     left:50px;
     top:41px;
 }
+body > section {
+    & > .temp > div > span{color:#A47503;}
+    & > .temp1 > div > span{color:#558502;}
+    & > .temp2 > div > span{color:#D52E13;}
+    & > .temp3 > div > span{color:#0787D4;}
+    & > .last > div > span{color:#5B568E;}
+}
 .temp2 > div {
     @include circle(#FD7761,#F55C43);
 }

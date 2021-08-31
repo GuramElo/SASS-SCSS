@@ -52,6 +52,22 @@ section > .temp, section > div {
   position: relative;
 }
 
+body > section > .temp > div > span, body > section > div > div > span {
+  color: #A47503;
+}
+body > section > .temp1 > div > span {
+  color: #558502;
+}
+body > section > .temp2 > div > span {
+  color: #D52E13;
+}
+body > section > .temp3 > div > span {
+  color: #0787D4;
+}
+body > section > .last > div > span {
+  color: #5B568E;
+}
+
 .temp2 > div {
   border-radius: 50%;
   width: 50px;
