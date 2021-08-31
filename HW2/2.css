@@ -1,0 +1,212 @@
+body {
+  margin: 0px;
+  position: relative;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url("assets/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: Lato-Black;
+  src: url("assets/Lato-Black.ttf");
+}
+@font-face {
+  font-family: Lato-Light;
+  src: url("assets/Lato-Light.ttf");
+}
+@font-face {
+  font-family: Awesome;
+  src: url("assets/FontAwesome.otf");
+}
+body > span {
+  font-family: Lato-Light;
+  font-size: 30px;
+  line-height: 26px;
+  position: absolute;
+  top: 51px;
+  left: 374px;
+}
+
+body > section {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 29px;
+  width: 1180px;
+  top: 132px;
+  left: 376px;
+}
+
+section > .temp, section > div {
+  width: 570px;
+  height: 150px;
+  background-color: lightgray;
+  border-radius: 10px;
+  position: relative;
+}
+
+body > section > .temp > div > span, body > section > div > div > span {
+  color: #A47503;
+}
+body > section > .temp1 > div > span {
+  color: #558502;
+}
+body > section > .temp2 > div > span {
+  color: #D52E13;
+}
+body > section > .temp3 > div > span {
+  color: #0787D4;
+}
+body > section > .last > div > span {
+  color: #5B568E;
+}
+
+.temp2 > div {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 7px solid #F55C43;
+  background: none;
+  position: absolute;
+  left: 50px;
+  top: 44px;
+}
+
+.temp > div, section > div > div {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 7px solid #C89210;
+  background: none;
+  position: absolute;
+  left: 50px;
+  top: 44px;
+  font-family: Awesome;
+  position: relative;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.temp > div > span, section > div > div > span {
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.temp1 > div {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 7px solid #7BC200;
+  background: none;
+  position: absolute;
+  left: 50px;
+  top: 44px;
+}
+
+.temp3 > div {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 7px solid #47B4F6;
+  background: none;
+  position: absolute;
+  left: 50px;
+  top: 44px;
+}
+
+.last > div {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 7px solid #8781BD;
+  background: none;
+  position: absolute;
+  left: 50px;
+  top: 44px;
+}
+
+.temp > span, section > div > span {
+  font-family: Lato-Black;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  color: #2C3E50;
+  position: absolute;
+  top: 35px;
+  left: 142.2px;
+}
+
+.temp > span > span, section > div > span > span {
+  font-family: Lato;
+  line-height: 24px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  font-size: 14px;
+  color: #2C3E50;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.last > span > span {
+  margin-top: 7px;
+}
+
+.temp > section, section > div > section {
+  position: absolute;
+  width: 9px;
+  height: 19px;
+  font-family: Awesome;
+  font-weight: lighter;
+  color: #CFD2D3;
+  font-size: 14px;
+  line-height: 24px;
+  right: 21px;
+  top: 14px;
+}
+
+body > section > .temp > section, body > section > div > section {
+  color: #B18009;
+}
+body > section > .temp1 > section {
+  color: #558502;
+}
+body > section > .temp2 > section {
+  color: #D52E13;
+}
+body > section > .temp3 > section {
+  color: #0787D4;
+}
+body > section > .last > section {
+  color: #5B568E;
+}
+
+body > section > .temp, body > section > div {
+  background-color: #FFC12D;
+}
+body > section > .temp1 {
+  background-color: #A7EC2F;
+}
+body > section > .temp2 {
+  background-color: #FEB1A4;
+}
+body > section > .temp3 {
+  background-color: #85EBFA;
+}
+body > section > .last {
+  background-color: #AACDF6;
+}
+
+section > .last {
+  width: 1170px;
+}
+
+/*# sourceMappingURL=2.css.map */
